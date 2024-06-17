@@ -97,9 +97,13 @@
 
 .modal-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
     max-height: 95vh;
-    padding: 20px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #fefefe;
     border-radius: 15px;
     border: 1px solid #888;
@@ -118,7 +122,8 @@
 .modal-content img {
     align-self: center;
     border-radius: 10px;
-    max-height: 90vh;
+    max-height: 100vh;
+    max-width: 100%;
 }
 
 .project-image {
