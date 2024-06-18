@@ -188,10 +188,12 @@
 
 @media (max-width: 600px) {
     .modal-content .left-arrow {
-        margin-right: 80%;
+        position: absolute;
+        left: 5%;
     }
 
     .modal-content .right-arrow {
-        margin-left: 80%;
+        position: absolute;
+        right: 5%;
     }
 }
