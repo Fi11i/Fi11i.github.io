@@ -168,12 +168,12 @@
 
     .modal-content .left-arrow {
         position: absolute;
-        margin-right: 500px;
+        left: 5%;
     }
 
     .modal-content .right-arrow {
         position: absolute;
-        margin-left: 500px;
+        right: 5%;
     }
 
     .project-image img {
