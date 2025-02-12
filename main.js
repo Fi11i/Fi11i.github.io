@@ -93,8 +93,8 @@ function rightArrowAction() {
     }
 }
 
-let slideId = ["project-1", "project-2", "project-3", "project-4", "project-5", "project-6", "project-7", "project-8", "project-9", "project-10", "project-11", "project-12", "project-13", "project-14", "project-15", "project-16"];
-let slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+let slideId = ["project-1", "project-2", "project-3", "project-4", "project-5", "project-6", "project-7", "project-8", "project-9", "project-10", "project-11", "project-12", "project-13", "project-14", "project-15", "project-16", "project-17", "project-18", "project-19", "project-20", "project-21"];
+let slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
@@ -111,6 +111,11 @@ showSlides(1, 12);
 showSlides(1, 13);
 showSlides(1, 14);
 showSlides(1, 15);
+showSlides(1, 16);
+showSlides(1, 17);
+showSlides(1, 18);
+showSlides(1, 19);
+showSlides(1, 20);
 
 function plusSlides(n, no) {
     showSlides(slideIndex[no] += n, no);
